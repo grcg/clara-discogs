@@ -9,7 +9,7 @@ minSdk = "24"
 targetSdk = "36"
 
 # Kotlin libraries
-kotlinCoroutines = "1.8.0"
+kotlinCoroutines = "1.8.1"
 kotlinSerialization = "1.6.3"
 
 # Ktor
@@ -35,8 +35,8 @@ junit = "4.13.2"
 androidJunit = "1.1.5"
 espresso = "3.5.1"
 mockk = "1.13.9"
-mockito = "5.3.1"
-turbine = "0.13.0"
+mockito = "5.22.0"
+mockitoKtl = "6.2.3"
 coreTesting = "2.2.0"
 
 # Images
@@ -108,8 +108,7 @@ androidx-arch-core-testing = { module = "androidx.arch.core:core-testing", versi
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito" }
-mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito" }
-turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockitoKtl" }
 
 # Logs
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }

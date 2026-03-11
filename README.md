@@ -76,7 +76,6 @@ Type-safe navigation using interface-based contracts:
 - **ViewModel injection** with `@HiltViewModel`
 
 ## Configuration
-
 ### Prerequisites
 
 - Android Studio Hedgehog | 2023.1.1 or newer
@@ -184,7 +183,11 @@ Run tests with:
 ./gradlew connectedAndroidTest
 
 ## Screenshots
-
+|                           Clara-Discogs Challenge                           |
+|:---------------------------------------------------------------------------:|
+| **Artist Search** <img src="resources/pics/screenshot_01.png" width="200">  |
+| **Artist Details** <img src="resources/pics/screenshot_02.png" width="200"> | 
+|  **Discography** <img src="resources/pics/screenshot_03.png" width="200">   |
 
 ## Contributing
 Fork the repository
@@ -212,5 +215,4 @@ This README provides:
 - Development process documentation
 - Project structure overview
 - Technology stack details
-- Troubleshooting guide
 
